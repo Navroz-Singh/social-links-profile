@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    color:white;
+    font-size: 14px;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigbox{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    background-color:hsl(0, 0%, 12%);
+    width:350px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width:100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.place{
+    font-weight: 600;
+    color:hsl(75, 94%, 57%);
+}
+
+.button{
+    padding: 15px;
+    width:310px ;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:black;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
